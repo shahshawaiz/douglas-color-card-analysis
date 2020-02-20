@@ -1,9 +1,8 @@
 
-<!doctype html>
-
-</html>
+<html>
 <head></head>
 <body>
+
 Introduction to task
 --------------------
 
