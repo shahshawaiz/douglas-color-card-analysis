@@ -1,0 +1,6 @@
+
+0. discuss process of analysis, walkthrough, findings, etc
+
+1. distance of each of 13 cards to master card (eculidean distance) -> colorGrid
+2. distance of each of 13 card to average card in measurments
+3. 1. distance of each of 13 cards to master card (vector difference) -> 3d colorGrid

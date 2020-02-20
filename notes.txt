@@ -1,0 +1,25 @@
+bg
+.douglas printers prints color cards
+.cards are used for determing customer's skin color
+.douglas system has skin color codes
+
+dataset
+.13 sheets
+.each sheet has 7 rows and 6 columns i.e. total 42 color cards
+.each colr card has 64 color spots
+.qr code of each spot in color card (also called target) is same as its position i.e. cominbation of rows and column on a given color card
+
+.a reference master card available with cmyk and lab values
+
+misc
+.few colors are better perceived. use them
+.
+
+
+
+defs
+
+.LAB colors space:
+comprised of three axes: L represents darkness to lightness, with values ranging from 0 to 100; a represents greenness to redness with values of -128 to +127; and b represents blueness to yellowness also with values from -128 to +127.
+.Delta E:
+metric for defining color diference in lab color space. a way of measuring the visible difference, or error between two colors mathematically. It is very useful for sorting “closeness” of paints to a scanned sample
