@@ -380,7 +380,7 @@ The steps that were used for the anlysis are as follow:
 + green-red Values which is far from 0 getting more far but not those which are close to 0(a)
 + blue/yellow getting more darker(b)
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, fig.align="center", out.width = '100%'}
+```{r echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.align="center", out.width = '100%'}
 
   plot3d( MasterColorCard[,9:11][,1], MasterColorCard[,9:11][,2], MasterColorCard[,9:11][,3], col = "red" , xlab="Luminance", ylab="a(green-red)", zlab="b(blue-yellow)", size = 5)
   
@@ -391,7 +391,7 @@ The steps that were used for the anlysis are as follow:
 * Color Dispersion On 3d Lab Color space on Master (L,a,b) values
 + Bigger the circle higher the dispersion
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, fig.align="center", out.width = '100%'}
+```{r echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.align="center", out.width = '100%'}
 
   abs_diff<-avg_color_sheet[,1:3]-MasterColorCard[,9:11]
 
